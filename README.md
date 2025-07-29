@@ -4,6 +4,9 @@
 
 Este es un **software beta** que permite compartir y acceder a archivos de forma remota a través de una red local. El proyecto consiste en un sistema cliente-servidor que facilita el intercambio de archivos entre computadoras conectadas a la misma red.
 
+## ⚠️ Importante!
+Este Software fue hecho con fines educativos y no nos hacemos responsables del mal uso que se le pueda hacer a la herramienta
+
 ### ¿Para qué sirve?
 
 - **Compartir archivos** entre computadoras en la misma red local
@@ -26,8 +29,7 @@ Este es un **software beta** que permite compartir y acceder a archivos de forma
 - Puede contener errores o comportamientos inesperados
 - Las funcionalidades están en desarrollo y pueden cambiar
 - Se recomienda usar solo en redes confiables
-- No está optimizado para uso en producción
-- Úsalo bajo tu propia responsabilidad
+
 
 ## 📋 Requisitos del Sistema
 
@@ -126,7 +128,7 @@ compartirarchivos/
 - **Solo usar en redes confiables**: El servidor no tiene autenticación
 - **Firewall**: Asegúrate de que el puerto 8000 esté abierto
 - **Contenido compartido**: Ten cuidado con qué archivos compartes
-- **Red local únicamente**: No expongas el servidor a Internet
+- **Red local o que esten en la misma red**: No expongas el servidor a Internet por seguridad
 
 ## 🐛 Solución de Problemas
 
@@ -144,7 +146,6 @@ compartirarchivos/
 - Verifica la conexión de red
 - Asegúrate de tener permisos de escritura en la carpeta de destino
 
-## 📞 Soporte
 
 Este es un proyecto beta en desarrollo. Para reportar errores o sugerir mejoras, puedes crear un issue en el repositorio de GitHub.
 
